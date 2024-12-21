@@ -1,5 +1,4 @@
 "use client";
-import Navbar from "@/design-systems/Molecules/NavBar";
 import Sidebar from "@/design-systems/Organisms/Sidebar";
 
 const Dashboard = () => {

@@ -8,5 +8,5 @@
     stroke?: string
     id?: string
     rectFill?: string
-    style?: any
+  
 }
