@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import LogoImage from "@/assets/images/demo-logo.png"
 import HomeImage from "@/assets/images/House.png"
@@ -7,20 +7,12 @@ import UsersImage from "@/assets/images/UsersFour.png"
 import SettingImage from "@/assets/images/Gear.png"
 import ChatImage from "@/assets/images/ChatTeardrop.png"
 
-import { FaArrowLeft } from 'react-icons/fa';
 
 
 const Sidebar = () => {
-  const [collapsed, setCollapsed] = useState(false);
   return (
     <div className={`flex h-[1080px] !py-6 bg-greenTheme transition-width duration-300 w-16 fixed top-0 left-0 z-10`}>
       <div className="relative h-full w-full">
-        {collapsed ? (
-          <FaArrowLeft
-            className="absolute top-4 left-4 cursor-pointer w-6 ml-3 mt-2"
-            // onClick={() => setCollapsed(false)}
-          />
-        ) : (
           <>
                
           
@@ -67,7 +59,7 @@ const Sidebar = () => {
        
           
           </>
-        )}
+      
       </div>
     </div>
   );

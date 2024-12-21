@@ -8,7 +8,7 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
   options,
   onSelect,
   defaultValue,
-  placeholder = 'new',
+  placeholder = '',
 }) => {
   const [isOpen, setIsOpen] = useState(false); 
   const [selectedValue, setSelectedValue] = useState<string | number | undefined>(undefined);

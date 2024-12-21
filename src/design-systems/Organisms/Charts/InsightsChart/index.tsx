@@ -1,5 +1,5 @@
 // components/InsightsChart.tsx
-import { BarChartIcon, ConsultationIcon } from '@/design-systems/Atoms/Icons';
+import { ConsultationIcon } from '@/design-systems/Atoms/Icons';
 import React from 'react';
 import {
   ComposedChart,
@@ -9,7 +9,6 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
 } from 'recharts';
 
