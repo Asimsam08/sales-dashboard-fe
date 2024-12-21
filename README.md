@@ -15,6 +15,13 @@ This project is a dashboard designed to display insights related to order and sa
   
 The dashboard is designed to give an overview of sales trends and help monitor the performance of order processing.
 
+This project is built with the following technologies:
+
+- **Next.js**: A React framework for building fast and scalable web applications.
+- **TypeScript**: Adds type safety to the project for better development experience and fewer runtime errors.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Recharts**: A library for rendering charts and graphs in React applications.
+
 ## Installation
 
 To set up the project locally, follow these steps:
